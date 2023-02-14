@@ -15,7 +15,7 @@ const Pets = () => {
 
     // Tillståndsvariabel med husdjur från husdjursdata
     const [petsCollection, setPetsCollection] = useState(petsData.pets);
-
+    
 
     //Skicka in ett husdjursnamn och ta bort den från samlingen
     const removePet = (petName) => {
@@ -25,6 +25,8 @@ const Pets = () => {
     const refillPets = () => {
         setPetsCollection(petsData.pets)
     }
+
+    console.log(petsData.pets[0].favFoods)
 
     return (
         <div>

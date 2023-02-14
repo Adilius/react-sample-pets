@@ -2,12 +2,11 @@ import React from "react";
 
 /*
     A single pet item
-
-    <button onClick={() => onRemove(pet.name)}>Remove pet</button>
 */
 
-
 const PetsItem = ({pet, onRemove}) => (
+
+    
     <div className="pet-item">
         <img src={pet.photo} alt={pet.name}/>
         {pet.name ? (<h2>Name: {pet.name}</h2>) : null}
@@ -15,6 +14,7 @@ const PetsItem = ({pet, onRemove}) => (
         {pet.favFoods ? (<p>Favorite foods: {pet.favFoods}</p>) : null}
         {pet.birthYear ? (<p>Birth year: {pet.birthYear}</p>) : null}
         <button onClick={() => onRemove(pet.name)}>Remove</button>
+        
     </div>
 );
 
