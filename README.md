@@ -1,12 +1,7 @@
 Del av `React introduktion` internkurs. Första labb att gå igenom tekniker så som React, ReactDOM, JSX, Props, State, och funktionella komponenter.
 
 ### `npm start`
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![my_pets_collage](https://user-images.githubusercontent.com/43440295/220169827-bcbc0242-f7db-4557-840c-d36d20350681.gif)
