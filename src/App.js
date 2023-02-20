@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import Pets from './components/Pets';
-import PetsItem from './components/PetsItem';
 
 function App() {
   return (

@@ -26,11 +26,9 @@ const Pets = () => {
         setPetsCollection(petsData.pets)
     }
 
-    console.log(petsData.pets[0].favFoods)
-
     return (
         <div>
-            <button onClick={() => refillPets()}>Reset pets</button>
+            <button style={{marginBottom: 20}} onClick={() => refillPets()}>Reset pets</button>
             {petsCollection.map((pet) => (
                 <PetsItem key={pet.name} pet={pet} onRemove={removePet}/>
             ))}
